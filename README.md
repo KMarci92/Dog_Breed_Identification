@@ -53,6 +53,13 @@ To better understand how the CNN pocesses images, the project includes:
 -Feature maps
 -Feature vectors
 
+The project also includes a separate notebook dog_breed_visualizations containing additional examples, to better show the performance of the model.
+This notebook focuses on evaluating prediction results. 
+It contains examples using images from the database's test image folder, 
+and also two additional examples from outside the database to show how the classifier can be applied in real life. 
+
+The visualizations include: confidence score distribution across test predictions, examples of correctly and wrongly classified images, side-by-side comparison between misclassified images and example image of thee predicted breed, random predictions, top 5 prediction for a random image, and real world examples with predictions.
+
 Running the project:
 1. Download and organize the datase.
 2. Update the paths in the notebook.
